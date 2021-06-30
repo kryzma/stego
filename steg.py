@@ -25,7 +25,7 @@ def turn_bit_off(val, bit, maxi=8):
 
 
 ##### MAIN CODE #####
-def encode(img, text, density=1) -> np.array():
+def encode(img, text, density=1) -> np.array:
 	'''
 	This function takes image, message and density, then encodes message into image and returns it
 
